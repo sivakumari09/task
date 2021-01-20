@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width,inistial-scale=1.0">
+  <title>DOCUMENT</title>
+</head>
+<body>
+  <script>
+   var num,originalnum,reverse;
+  num=151;
+   originalnum=num
+   reverse=0;
+   while(num!=0){
+    reverse=(reverse*10)+(num%10);
+    num=parseInt(num/10);
+}
+  if(originalnum==reverse){
+  document.write(reverse+"palindrome");
+}
+else{
+document.write(reverse+"palindrome");
+}
+</script>
+</body>
+</html>
