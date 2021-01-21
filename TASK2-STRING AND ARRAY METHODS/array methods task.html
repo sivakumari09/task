@@ -1,0 +1,38 @@
+<!DOCTYPEhtml>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width,initial scale=1.0">
+        <title>Array methods</title>
+    </head>
+    <body>
+<h2>array method</h2>
+<div id=fresult></div><br></br>
+<script>
+    var employee=['john','kelvin','rose,']
+    var empresult=employee.push('rob');
+    document.getElementById('fresult').innerHTML=employee;
+    //type(
+    var product='apple'
+    alert(typeof(product));
+    //unshift
+    var books=['javascript','html','typescript']
+    var bookresult=books.unshift('reactjs');
+    document.getElementById('fresult').innerHTML=books;
+    //concat()
+    var employee1=['john','kelvin','rose']
+    var empresult1=employee1.includes('rose');
+    document.getElementById('fresult').innerHTML=empresult1;
+  //concat
+    var array1= ['redmi','nokia','oneplus']
+    var array2 = ['apple','realme']
+    var arrayresult=array1.concat(array2);
+    document.getElementById('fresult').innerHTML=arrayresult;
+  //indexof()
+    var books1=['javascript','html','typescript']
+    var booksresult=books1.indexOf('html')
+    document.getElementById('fresult').innerHTML=booksresult;
+
+</script>
+    </body>
+</html>
